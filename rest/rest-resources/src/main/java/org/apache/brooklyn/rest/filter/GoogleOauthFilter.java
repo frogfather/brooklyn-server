@@ -51,7 +51,7 @@ import org.apache.http.util.EntityUtils;
 import org.json.simple.parser.JSONParser;
 import org.json.simple.parser.ParseException;
 
-public class MyOauthFilter  implements Filter {
+public class GoogleOauthFilter implements Filter {
 
     private static final String SESSION_KEY_CODE = "code";
 
